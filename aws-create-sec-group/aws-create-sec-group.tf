@@ -1,7 +1,8 @@
 
-resource "aws_security_group" "" {
+resource "aws_security_group" "camas-sec-security-group" {
     name = ""
     description = ""
+    vpc_id = ""
 
     ingress {
         from_port = 80
