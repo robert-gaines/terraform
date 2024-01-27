@@ -9,6 +9,8 @@ resource "aws_vpc" "camas-sec-vpc" {
     }
 }
 
+/* */
+
 /*
 output "vpc_id" {
     value = "${aws_vpc.'vpc-name'.id}"
